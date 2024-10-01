@@ -76,3 +76,5 @@ update funcionarios set sexo = 'M', sexo = 'F' where idfuncionarios = 1;
 update funcionarios set salario = 2800, salario = 5000 where idfuncionarios = 1;
 update funcionarios set cidade = 'Salvador', cidade = 'Brasilia' where idfuncionarios = 1;
 select * from funcionarios;
+
+## nos update adicionei o nome antigo e o nome novo que nao é necessrio, somente com o nome novo ele altera!!
