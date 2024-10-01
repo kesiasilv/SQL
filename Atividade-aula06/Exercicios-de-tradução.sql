@@ -1,4 +1,17 @@
 ## Exercícios de tradução 
+-- Traduza os comandos SQL a seguir:
+1. delete from times where nome = 'Vasco' 
+2.update jogadores set salario=10000 where idjogadores =3 
+3. Insert into jogadores (nome, salario,idtimes) values ('Xuxa', 4000,1) 
+4. Insert into times (nome, anodefundacao) values ('Olaria', 40000) 
+5. select nome, salario from jogadores where salario > 2000 
+6. select nome, valor from time where anodefundacao < 1950 
+7. select nome,salario from jogadores where salario < 400000 
+8. select distinct nome from jogadores 
+9. select anodefundacao,nome from times order by nome 
+10. select max(salario) from jogadores 
+11. select count(nome) from times 
+12. select avg(salario) from jogadores where datanascimento > '2000-01-10'
 /*
 Respostas:
 1) Deleta a tupla que possui o nome igual a vasco;
